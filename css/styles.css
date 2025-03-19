@@ -30,6 +30,12 @@ a
     letter-spacing: 0.03em;
 }
 
+.container {
+max-width: 1158px;
+padding: 0 15px;
+margin:0 auto;
+}
+
 .header-logo 
 {
     font-family: "Raleway", sans-serif;
