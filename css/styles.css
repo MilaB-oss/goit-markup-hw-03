@@ -108,15 +108,15 @@ margin: 0 auto;
 
 .contacts 
 {   
-        font-style: normal;
-        margin-left: auto;
+    font-style: normal;
+    margin-left: auto;
 }
 
 .contacts-list 
 {
-display: flex;
-align-items: center;
-gap: 40px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
 }
 
 .contacts-link 
