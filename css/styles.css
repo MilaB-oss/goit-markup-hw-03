@@ -5,6 +5,10 @@ body
     background-color: #ffffff;
 }
 
+img {
+    display: block;
+}
+
 h1,h3 
 {
     color: #2E2F42;
@@ -360,6 +364,7 @@ li {
 .page-footer 
 {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 
 .footer-logo 
