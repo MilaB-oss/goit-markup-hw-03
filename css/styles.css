@@ -22,16 +22,11 @@ h1,h3
     background-color: #ffffff;
 }
 
-ul, 
-ol 
-{
+h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding:0;
     list-style: none;
-    margin: 0;
-    padding: 0;
-}
 
-h1, h2, h3, h4, h5, h6, p {
-    margin: 0;
 }
 
 .page-header {
@@ -136,8 +131,8 @@ margin: 0 auto;
     color: #404bbf;
 }
 
-.section:not(:last-child) {
-    margin-bottom: 0;
+.section {
+    padding: 120px 0;
 }
 
 .section-main 
@@ -164,7 +159,7 @@ margin: 0 auto;
 }
 
 .section-main-button 
-{   display: block;
+{   
     font-size: 16px;
     font-weight: 500;
     color: #FFFFFF;
@@ -279,6 +274,7 @@ li {
     display: flex;
     gap: 24px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .team-item 
@@ -287,6 +283,7 @@ li {
     background-color: #FFFFFF;
     text-align: center;
     flex-wrap: nowrap;
+    height: auto;
     gap: 24px;
 }
 
